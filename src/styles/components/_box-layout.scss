@@ -1,0 +1,28 @@
+.box-layout {
+    align-items: center;
+    background: purple;
+   // background: url('/images/chill2.png');
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.box-layout__single {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box-layout__box {
+    background: fade-out(white, .15);
+    border-radius: 3px;
+    padding: $l-size, $l-size;
+    text-align: center;
+    width: 25rem;
+}
+
+.box-layout__title {
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+}

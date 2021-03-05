@@ -1,0 +1,21 @@
+.header {
+    background: $soft-pink;
+    color: black;
+    margin-bottom: $xl-size;
+    padding: $m-size 0;
+   
+}
+.header__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size 0;
+  }
+
+.header__title {
+    color: white;
+    text-decoration: none;
+    h1 {
+        margin: 0;
+    } 
+}
